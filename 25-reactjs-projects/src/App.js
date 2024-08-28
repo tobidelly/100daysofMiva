@@ -3,6 +3,7 @@ import './App.css';
 import Accordian from './components/Accordian';
 import RandomColor from './components/random-color';
 import StarRating from './components/star-rating';
+import ImageSlider from './components/image-slider';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Accordian />
       <RandomColor />
       <StarRating />
+      <ImageSlider />
     </div>
   );
 }
