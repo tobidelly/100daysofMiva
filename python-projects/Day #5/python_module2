@@ -1,0 +1,17 @@
+# import mymodule as mx
+import mymodule as mx
+
+a = mx.person1["age"]
+print(a)
+
+# Import and use the platform module
+import platform
+
+x = platform.system()
+print(x)
+
+# List all the defined names belonging to the platform module
+import platform
+
+x = dir(platform)
+print(x)
